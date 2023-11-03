@@ -1,10 +1,21 @@
 // 👉 1- Finding an element on the page and saving a reference to it
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 //  Newer: querySelector, querySelectorAll
+const mainNav = document.getElementById("mainNav");
+const divElems = document.getElementsByTagName("div");
+const cardElems = document.getElementsByClassName("card");
+
+const queryMainNav = document.querySelector("#mainNav");
+const queryDivElems = document.querySelectorAll("div");
+const queryCardElems = document.querySelectorAll(".card");
+
+console.log("IT'S WORKING! IT'S WORKING!!!");
+
 //  Select the following single elements from the div.card
 
 // A- finding across the entire DOM
-const header = null
+const header = document.querySelector("header");
+console.log(header);
 const logoTitle = null
 const firstCard = null
 // B- finding within one particular element
